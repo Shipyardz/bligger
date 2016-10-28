@@ -1,1 +1,5 @@
-%h1 Test placeholder
+- @posts.each do |post|
+  %h2= link_to post.title, post
+  
+
+= link_to "Add new Inspiration", new_post_path
